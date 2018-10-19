@@ -18,10 +18,10 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'solidus', ['>= 1.1', '< 3']
   s.add_dependency "solidus_support"
-  s.add_dependency 'deface', '~> 1.2.0'
+  s.add_dependency 'deface', '~> 1.0'
 
   s.add_development_dependency 'capybara', '~> 2.7'
-  s.add_development_dependency 'factory_girl', '~> 4.7'
+  s.add_development_dependency 'factory_bot', '~> 4.7'
   s.add_development_dependency 'ffaker'
   s.add_development_dependency 'database_cleaner', '~> 1.5'
   s.add_development_dependency 'rspec-rails',  '~> 3.5'
